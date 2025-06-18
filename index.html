@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Equestrian Center</title>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      margin: 0;
+      padding: 0;
+      background: #fff8f0;
+      color: #333;
+    }
+    header {
+      background: #5c4a3d;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      background: #e5d1b8;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+    }
+    nav a {
+      color: #5c4a3d;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .grid {
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    footer {
+      background: #5c4a3d;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+    button {
+      padding: 0.8rem 1.5rem;
+      background: #5c4a3d;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    button:hover {
+      background: #3d3127;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Your Equestrian Center</h1>
+    <p>Where Horse and Rider Connect</p>
+    <button onclick="window.location.href='#booking'">📅 Book a Visit</button>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#map">Find Us</a>
+    <a href="#shop">Shop</a>
+    <a href="#events">Events</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="services">
+    <h2>What We Offer</h2>
+    <ul>
+      <li>🐎 Riding Lessons for all levels</li>
+      <li>🏡 Horse Boarding & Care</li>
+      <li>🎯 Personalized Training Programs</li>
+      <li>🎉 Events & Equine Wellness Clinics</li>
+    </ul>
+  </section>
+
+  <section id="video">
+    <h2>🎥 Take a Virtual Tour</h2>
+    <p>Experience the serenity of our stables and joyful energy of our riders.</p>
+    <!-- Placeholder for embedded video -->
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/yourvideoid" frameborder="0" allowfullscreen></iframe>
+  </section>
+
+  <section id="map">
+    <h2>📍 Find Us</h2>
+    <p>Located just 15 minutes from the heart of Kaduna.</p>
+    <!-- Placeholder for embedded Google Map -->
+    <iframe src="https://www.google.com/maps/embed?pb=YOUR_MAP_EMBED_CODE" width="100%" height="300" frameborder="0" allowfullscreen></iframe>
+  </section>
+
+  <section id="events">
+    <h2>📣 Upcoming Events</h2>
+    <ul>
+      <li>🐴 Summer Camp – Aug 12–18</li>
+      <li>🏆 Inter-stable Showdown – Sept 5</li>
+      <li>🧘 Horse Yoga Retreat – Oct 22</li>
+    </ul>
+  </section>
+
+  <section class="gallery">
+    <h2>📸 In the Saddle</h2>
+    <div class="grid">
+      <img src="horse1.jpg" alt="Horse galloping"/>
+      <img src="lesson.jpg" alt="Student riding"/>
+      <img src="stable.jpg" alt="Our stables"/>
+      <img src="sunset.jpg" alt="Horse in sunset"/>
+    </div>
+  </section>
+
+  <section id="shop">
+    <h2>🛍️ Shop the Stable</h2>
+    <ul>
+      <li>Logo T-Shirts</li>
+      <li>Handcrafted Leather Reins</li>
+      <li>Gift Vouchers & Lesson Packages</li>
+    </ul>
+    <button onclick="window.location.href='https://yourshoplink.com'">Visit Our Shop</button>
+  </section>
+
+  <section id="contact">
+    <h2>💬 Chat With Us</h2>
+    <p>Have a question? Reach out via WhatsApp or live chat!</p>
+    <button onclick="window.open('https://wa.me/234XXXXXXXXXX')">📱 WhatsApp</button>
+  </section>
+
+  <footer>
+    <p>© 2025 Your Equestrian Center. Designed with ❤️ from Kaduna.</p>
+  </footer>
+
+</body>
+</html>
